@@ -39,4 +39,21 @@
 // alert(message); // Hello world!
 
 // A variable should be declared only once. A repeated declaration of the same variable is an error:
-//  un comment the previous two snippets you will remember
+// uncomment the previous two snippets you will remember.
+
+// variable naming syntax
+
+let userName;
+let test123;
+// valid variable names
+
+// special cases
+let $ =1;
+let _ =2;
+
+alert ($+_);
+// variable naming syntax for special cases
+
+// let 1a; // cannot start with a digit
+
+// let my-name; // hyphens '-' aren't allowed in the name
