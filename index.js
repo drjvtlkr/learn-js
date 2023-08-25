@@ -1,0 +1,1 @@
+// example of writing a external js doc
