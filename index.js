@@ -57,3 +57,17 @@ alert ($+_);
 // let 1a; // cannot start with a digit
 
 // let my-name; // hyphens '-' aren't allowed in the name
+
+// Conts
+
+const string = "The revolution will not be televised.";
+console.log(string);
+
+// strings can not be variables, mostly because they are fixed within double quotes
+
+const badString = string;
+console.log(badString)
+
+alert(badString)
+
+//  works perfectly fine
