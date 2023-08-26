@@ -71,3 +71,12 @@ console.log(badString)
 alert(badString)
 
 //  works perfectly fine
+
+// Inside a template , we can also wrap js variable or expression inside ${}. and the reuslt
+// be same
+
+const name = "Chris";
+const greetings = `Hello, ${name}`;
+alert(greetings);
+// this is exactly where backticks are used when using a expression within another
+
