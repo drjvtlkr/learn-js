@@ -90,8 +90,15 @@
 // selectedColor[3]= 345;
 // console.log(selectedColor)
 
-function kyaBathHai(nam) {
-    console.log('hello ',nam);
+// function kyaBathHai(nam) {
+//     console.log('hello ',nam);
 
+// }
+// kyaBathHai('dheeraj');
+
+function sayHello(i){
+    for (var i=1; i<5; i++){
+        console.log(i);
+    }
 }
-kyaBathHai('dheeraj');
+sayHello('dheeraj ');
