@@ -114,6 +114,12 @@ function sayHi(){
     // this is not processed and throws an error becaus let key word is used
     // let key word is function specific whereas var was not 
     // therefore let was introduced as a part of ES6 in 2015
+
+    //  in simple words
+    /*
+    var -> function
+    let -> block
+     */
 }
 
 sayHi();
