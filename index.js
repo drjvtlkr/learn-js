@@ -123,3 +123,15 @@ function sayHi(){
 }
 
 sayHi();
+
+// const is a object
+const person ={
+    names   : 'mosh',
+    walk    : function() {}, // if we have a function within an object in OOP terms we call it, method
+    // therefore walk here is an object.
+    // there are two main way to declaer a method. First one is by the method we have defined walk method
+    talk(){}
+    // talk is another way of declaring a method.
+    // you simply name the function and put closed brackets after the name. this is taken an a method by defalut.
+    // and enclose curly braces after that. to define it as a method, following it's actual syntax.
+}
