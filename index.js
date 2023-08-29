@@ -105,3 +105,15 @@ function sayHello(){
     // also because this function call is made out of the loop it is printed anyway
 }
 sayHello();
+
+function sayHi(){
+    for (let i =0; i<5;i++){
+        console.log(i);
+    }
+    console.log(i);
+    // this is not processed and throws an error becaus let key word is used
+    // let key word is function specific whereas var was not 
+    // therefore let was introduced as a part of ES6 in 2015
+}
+
+sayHi();
