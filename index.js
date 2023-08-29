@@ -96,9 +96,12 @@
 // }
 // kyaBathHai('dheeraj');
 
-function sayHello(i){
+function sayHello(){
     for (var i=1; i<5; i++){
         console.log(i);
     }
+    console.log(i)
+    //  this is returned in broswer becaus ein the last iteration of the loop i=5
+    // also because this function call is made out of the loop it is printed anyway
 }
-sayHello('dheeraj ');
+sayHello();
