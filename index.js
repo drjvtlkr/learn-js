@@ -80,3 +80,7 @@ const greetings = `Hello, ${name}`;
 alert(greetings);
 // this is exactly where backticks are used when using a expression within another
 
+// Arrays
+let selectedColor= ['red', 'blue'];
+selectedColor[2]= 'orange';
+console.log(selectedColor)
