@@ -84,3 +84,8 @@ alert(greetings);
 let selectedColor= ['red', 'blue'];
 selectedColor[2]= 'orange';
 console.log(selectedColor)
+
+
+let selectedColor= ['red', 'blue'];
+selectedColor[3]= 345;
+console.log(selectedColor)
