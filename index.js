@@ -1,91 +1,97 @@
-// example of writing a external js doc
+// // example of writing a external js doc
 
-// let message;
-// message = 'Hello';
-// // or
+// // let message;
+// // message = 'Hello';
+// // // or
 
-// let mesage = 'hemlo';
+// // let mesage = 'hemlo';
 
-// alert(mesage);
-// alert(message);
-// now adding more vriables
+// // alert(mesage);
+// // alert(message);
+// // now adding more vriables
 
-// let user = 'john', age = 25, mesage = 'unga bunga' ;
-//  alert(user), alert (age), alert(mesage);
+// // let user = 'john', age = 25, mesage = 'unga bunga' ;
+// //  alert(user), alert (age), alert(mesage);
+// // // end
+
+// // new snippet
+
+// // let message;
+
+// // message = 'Hello!';
+
+// // message = 'World!'; // value changed
+
+// // alert(message);
 // // end
 
-// new snippet
+// // new
 
-// let message;
+// // let hello = 'Hello world!';
 
-// message = 'Hello!';
+// // let message;
 
-// message = 'World!'; // value changed
+// // // copy 'Hello world' from hello into message
+// // message = hello;
 
-// alert(message);
-// end
+// // // now two variables hold the same data
+// // alert(hello); // Hello world!
+// // alert(message); // Hello world!
 
-// new
+// // A variable should be declared only once. A repeated declaration of the same variable is an error:
+// // uncomment the previous two snippets you will remember.
 
-// let hello = 'Hello world!';
+// // variable naming syntax
 
-// let message;
+// let userName;
+// let test123;
+// // valid variable names
 
-// // copy 'Hello world' from hello into message
-// message = hello;
+// // special cases
+// let $ =1;
+// let _ =2;
 
-// // now two variables hold the same data
-// alert(hello); // Hello world!
-// alert(message); // Hello world!
+// alert ($+_);
+// // variable naming syntax for special cases
 
-// A variable should be declared only once. A repeated declaration of the same variable is an error:
-// uncomment the previous two snippets you will remember.
+// // let 1a; // cannot start with a digit
 
-// variable naming syntax
+// // let my-name; // hyphens '-' aren't allowed in the name
 
-let userName;
-let test123;
-// valid variable names
+// // Conts
 
-// special cases
-let $ =1;
-let _ =2;
+// const string = "The revolution will not be televised.";
+// console.log(string);
 
-alert ($+_);
-// variable naming syntax for special cases
+// // strings can not be variables, mostly because they are fixed within double quotes
 
-// let 1a; // cannot start with a digit
+// const badString = string;
+// console.log(badString)
 
-// let my-name; // hyphens '-' aren't allowed in the name
+// alert(badString)
 
-// Conts
+// //  works perfectly fine
 
-const string = "The revolution will not be televised.";
-console.log(string);
+// // Inside a template , we can also wrap js variable or expression inside ${}. and the reuslt
+// // be same
 
-// strings can not be variables, mostly because they are fixed within double quotes
+// const name = "Chris";
+// const greetings = `Hello, ${name}`;
+// alert(greetings);
+// // this is exactly where backticks are used when using a expression within another
 
-const badString = string;
-console.log(badString)
-
-alert(badString)
-
-//  works perfectly fine
-
-// Inside a template , we can also wrap js variable or expression inside ${}. and the reuslt
-// be same
-
-const name = "Chris";
-const greetings = `Hello, ${name}`;
-alert(greetings);
-// this is exactly where backticks are used when using a expression within another
-
-// Arrays
-let selectedColor= ['red', 'blue'];
-selectedColor[2]= 'orange';
-console.log(selectedColor)
+// // Arrays
+// let selectedColor= ['red', 'blue'];
+// selectedColor[2]= 'orange';
+// console.log(selectedColor)
 
 
-let selectedColor= ['red', 'blue'];
-selectedColor[3]= 345;
-console.log(selectedColor)
+// let selectedColor= ['red', 'blue'];
+// selectedColor[3]= 345;
+// console.log(selectedColor)
+
+function kyaBathHai(nam) {
+    console.log('hello ',nam);
+
+}
+kyaBathHai('dheeraj');
